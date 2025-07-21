@@ -16,4 +16,9 @@ Scenario 3: A healthcare provider oversees a population health initiative focuse
 <img width="778" height="418" alt="image" src="https://github.com/user-attachments/assets/ac376690-48fb-4cee-9575-9eef26d0bb60" />
 
 # Project Screenshots
+<img width="1880" height="850" alt="image" src="https://github.com/user-attachments/assets/6f09cc15-5124-4cbc-955b-697b99263dce" />
+<img width="1917" height="853" alt="image" src="https://github.com/user-attachments/assets/43bd8784-00ad-4bfb-80d7-29294cb187b8" />
+<img width="1901" height="857" alt="image" src="https://github.com/user-attachments/assets/d8a2c26d-44f1-40e6-a024-81f1fc5f08cb" />
+<img width="1918" height="832" alt="image" src="https://github.com/user-attachments/assets/dd6bc766-8008-47fc-a1a6-faf37b93e11a" />
+
 
