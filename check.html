@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Check Your BP - PulseCare</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffe0ec, #ffeef5);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    nav {
+      background-color: #fff0f6;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #d63384;
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #fff6fb;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      text-align: center;
+      color: #d63384;
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ffc2dd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      background-color: #d63384;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #c21870;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/">PulseCare</a>
+    <a href="/details">Details</a>
+  </nav>
+
+<div class="container mt-5">
+    <h3 class="text-center">CHECK YOUR HEALTH!</h3>
+    <p class="text-center">Checking blood pressure stage is crucial to assess cardiovascular health, detect hypertension or hypotension, and mitigate risks.</p>
+    <form action="/predict" method="POST">
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label>Select Gender</label>
+          <select class="form-control" name="Gender">
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label>Select Age</label>
+          <select class="form-control" name="Age">
+            <option>18-34</option>
+            <option>35-50</option>
+            <option>51-64</option>
+            <option>65+</option>
+          </select>
+        </div>
+          <div class="form-group col-md-4">
+          <label>Do you have any medical History?</label>
+          <select class="form-control" name="History">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label>If Patient?</label>
+          <select class="form-control" name="Patient">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-4">
+          <label>Do you Take Medication?</label>
+          <select class="form-control" name="TakeMedication">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+
+
+        <div class="form-group col-md-4">
+          <label>Select the level of Severity</label>
+          <select class="form-control" name="Severity">
+            <option>Mild</option>
+            <option>Moderate</option>
+            <option>Severe</option>
+          </select>
+        </div>
+        </div>
+       <div class="form-row">
+        <div class="form-group col-md-4">
+          <label>Do you have Breath Shortness?</label>
+          <select class="form-control" name="BreathShortness">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-4">
+          <label>Are there any Visual Changes?</label>
+          <select class="form-control" name="VisualChanges">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+
+
+        <div class="form-group col-md-4">
+          <label>Did you have Nose Bleeding?</label>
+          <select class="form-control" name="NoseBleeding">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+         </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label>When Diagnoused?</label>
+          <select class="form-control" name="Whendiagnoused">
+            <option><1year</option>
+            <option>1-5years</option>
+            <option>>5years</option>
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label>Select Systolic</label>
+          <select class="form-control" name="Systolic">
+            <option>111-120</option>
+            <option>121-130</option>
+            <option>130+</option>
+          </select>
+        </div>
+
+
+
+        <div class="form-group col-md-4">
+          <label>Select Diastolic</label>
+          <select class="form-control" name="Diastolic">
+            <option>81-90</option>
+            <option>91-100</option>
+            <option>100+</option>
+          </select>
+        </div>
+        </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label>Do you follow Controlled Diet?</label>
+          <select class="form-control" name="ControlledDiet">
+            <option>No</option>
+            <option>Yes</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
+

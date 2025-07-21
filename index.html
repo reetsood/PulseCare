@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:C="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>PulseCare - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffe0ec, #ffeef5);
+      color: #444;
+    }
+    nav {
+      background-color: #fff0f6;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: #d63384;
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .container h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #d63384;
+    }
+    .container p {
+      font-size: 1.1rem;
+      max-width: 800px;
+    }
+    .buttons {
+      margin-top: 40px;
+    }
+    .btn {
+      padding: 12px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      margin: 0 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .btn-primary {
+      background-color: #d63384;
+      color: white;
+    }
+    .btn-primary:hover {
+      background-color: #c12875;
+    }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #d63384;
+      color: #d63384;
+    }
+    .btn-outline:hover {
+      background-color: #d63384;
+      color: white;
+    }
+    .image-section {
+      margin-top: 60px;
+    }
+    .image-section img {
+      width: 100%;
+      max-width: 550px;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">PulseCare</a>
+  </nav>
+
+  <div class="container">
+    <h1>Predict Blood Pressure with PulseCare</h1>
+    <p>
+      Monitor your vitals and forecast potential changes in blood pressure using smart data analysis.
+      PulseCare is designed for everyone – from patients with hypertension to fitness lovers and healthcare providers.
+    </p>
+
+    <div class="buttons">
+     <a href="/check" class="btn btn-primary">Start Now</a>
+     <a href="/details?show=info" class="btn btn-outline">How It Works</a>
+   </div>
+
+
+</body>
+</html>
+
