@@ -12,9 +12,6 @@ Scenario 2: A fitness enthusiast relies on a smartwatch equipped with Predictive
 
 Scenario 3: A healthcare provider oversees a population health initiative focused on preventing cardiovascular diseases among at-risk individuals. Leveraging Predictive Pulse technology, they remotely monitor patients and identify those at higher risk of developing hypertension or experiencing blood pressure fluctuations. This data-driven approach enables targeted interventions such as lifestyle modifications, medication adherence reminders, or telehealth consultations, effectively managing and preventing complications.
 
-# Technical Architecture
-<img width="778" height="418" alt="image" src="https://github.com/user-attachments/assets/ac376690-48fb-4cee-9575-9eef26d0bb60" />
-
 # Project Screenshots
 <img width="1880" height="850" alt="image" src="https://github.com/user-attachments/assets/6f09cc15-5124-4cbc-955b-697b99263dce" />
 <img width="1917" height="853" alt="image" src="https://github.com/user-attachments/assets/43bd8784-00ad-4bfb-80d7-29294cb187b8" />
